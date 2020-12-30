@@ -3,6 +3,9 @@ Deploying hand gesture recognition model into flask app
 
 4 main classes - [Stop, Start, Garbage, Next]
 
+### Download the model and put it into ../model/
+https://drive.google.com/file/d/1A8MlFToaRnuSxGRz5SfnKRoH6i2YxG_v/view?usp=sharing
+
 ### To set up virtualenv
 ```bash
 python3 -m venv venv
