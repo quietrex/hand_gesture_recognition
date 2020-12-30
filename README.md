@@ -1,5 +1,6 @@
 # Hand Gesture Recognition model on Flask
 Deploying hand gesture recognition model into flask app
+4 main classes - [Stop, Start, Garbage, Next]
 
 ### To set up virtualenv
 ```bash
