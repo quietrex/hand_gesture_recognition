@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Deploying Hand pose recognition to Flask App</title>
+    
+  </head>
+  <body>
+    <h1>Deploying Hand pose recognition to Flask App</h1>
+
+    <p>Demonstrate model with your desire hand pose.</p>
+    
+    <img id="bg" src="{{ url_for('video_feed') }}" width="320" height="180">
+    <section id="media"></section>
+    <p id="demo"></p>
+    <script>
+      var audio = document.createElement('audio');
+      var source = document.createElement('source');
+      var media = document.getElementById('media');
+      media.appendChild(audio);
+      audio.appendChild(source);
+      source.setAttribute('src', 'https://glpro.s3.amazonaws.com/_util/smpte/111.mp3');
+      source.setAttribute('type', 'audio/mpeg');
+      audio.setAttribute('controls', 'controls');
+
+      var isPlaying = false;
+
+      function togglePlay() {
+        isPlaying ? document.getElementById('audio').pause() : document.getElementById('audio').play();
+      };  
+
+      if (name = 'start') {
+        togglePlay();
+        isPlaying = true;
+      } else {
+        togglePlay();
+        isPlaying = false;
+      }
+
+    </script>
+  </body>
+</html>
