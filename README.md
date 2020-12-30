@@ -1,13 +1,13 @@
 # Hand Gesture Recognition model on Flask
 Deploying hand gesture recognition model into flask app
 
-### setting up virtualenv
+### To set up virtualenv
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### install packages
+### To install packages
 ```bash
 pip install -r requirement.txt
 ```
